@@ -1,0 +1,46 @@
+*{box-sizing:border-box}
+body
+{
+  background-color: rgba(99, 96, 96, 0.156);
+}
+.container {
+  padding: 16px;
+  margin:10px;
+  background-color: rgba(13, 166, 193, 0.709);
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #cdcdc9f5;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #369ee9c7;
+  color: rgb(233, 203, 203);
+  padding: 16px 20px;
+  margin: 18px 0;
+  border: 5px solid rgb(170, 234, 147);
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity:1;
+}
+a {
+  color: rgb(50, 60, 58);
+}
+.signin {
+  background-color: #c5c0c3;
+  text-align: center;
+}
